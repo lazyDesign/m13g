@@ -33,3 +33,15 @@
 **Action:** Adding responsive scale factor - 80% on mobile devices.
 
 ---
+
+**User:** 我们将硬件创新转化为高端消费产品，从原型到市场成功，提供全程陪伴。breakline for these 3 and we a good to go
+
+**Action:** Adding line breaks to Chinese hero subtitle.
+
+---
+
+**User:** yes, and commit and push
+
+**Action:** Committing and pushing the line break changes to publish site.
+
+---
