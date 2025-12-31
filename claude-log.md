@@ -45,3 +45,9 @@
 **Action:** Committing and pushing the line break changes to publish site.
 
 ---
+
+**User:** i feel above mobile wasnt using 1.25 as scale factors by default.
+
+**Action:** Fixing desktop to use proper 1.25x scale with CSS zoom.
+
+---
