@@ -27,3 +27,9 @@
 **Action:** Checking and fixing Chinese punctuation to use full-width symbols.
 
 ---
+
+**User:** add repsonive scale factor, when in mobile version, scale to 80% as default factor
+
+**Action:** Adding responsive scale factor - 80% on mobile devices.
+
+---
