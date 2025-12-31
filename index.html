@@ -12,26 +12,49 @@
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            background: #f5f5f5;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
         }
         .container {
             text-align: center;
             padding: 2rem;
+            color: white;
         }
         h1 {
-            color: #333;
-            font-size: 3rem;
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+            animation: bounce 1s infinite;
+        }
+        .potato {
+            font-size: 8rem;
+            animation: spin 3s linear infinite;
+            display: inline-block;
         }
         p {
-            color: #666;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        .small {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-top: 2rem;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="potato">🥔</div>
         <h1>m13g</h1>
-        <p>Coming soon...</p>
+        <p>This potato is working harder than our servers.</p>
+        <p class="small">If you see this spinning potato, GitHub Pages is working!</p>
     </div>
 </body>
 </html>
