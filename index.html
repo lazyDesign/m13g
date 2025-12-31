@@ -890,7 +890,7 @@
 
         .marquee-item span {
             font-family: 'Syne', sans-serif;
-            font-size: 0.95rem;
+            font-size: 1.9rem;
             font-weight: 500;
             color: var(--dust-gray);
             transition: color 0.3s ease;
@@ -903,7 +903,7 @@
         .zh .marquee-item span {
             font-family: 'Noto Sans SC', sans-serif;
             font-weight: 400;
-            font-size: 1rem;
+            font-size: 2rem;
             letter-spacing: 0.05em;
         }
 
@@ -1850,7 +1850,7 @@
         // Wait for fonts to load before initializing
         document.fonts.ready.then(() => {
             const marqueeRows = document.querySelectorAll('.marquee-row');
-            const speeds = [30, 35, 28, 32, 26]; // seconds per loop
+            const speeds = [45, 52, 42, 48, 39]; // seconds per loop (50% slower)
             const directions = [1, -1, 1, -1, 1]; // 1 = left, -1 = right
             const animations = [];
 
