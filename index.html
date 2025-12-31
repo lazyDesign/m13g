@@ -909,20 +909,31 @@
 
         .categories-more {
             text-align: center;
-            margin: 2.5rem auto 0;
+            margin: 3rem auto 0;
             padding: 2rem 2rem 0;
             max-width: 600px;
         }
 
         .categories-more span {
-            font-family: 'Syne', sans-serif;
-            font-size: 0.9rem;
-            color: var(--stellar-gold);
-            letter-spacing: 0.1em;
+            font-family: 'Instrument Serif', serif;
+            font-style: italic;
+            font-size: 1.8rem;
+            background: linear-gradient(135deg, var(--stellar-gold) 0%, var(--stellar-amber) 50%, var(--plasma-white) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 3s ease-in-out infinite;
+            background-size: 200% 200%;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
         }
 
         .zh .categories-more span {
-            font-family: 'Noto Sans SC', sans-serif;
+            font-family: 'kuaikanshijieti20231213', sans-serif;
+            font-style: normal;
         }
 
         /* Brand Story Section */
