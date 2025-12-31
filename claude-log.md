@@ -51,3 +51,9 @@
 **Action:** Fixing desktop to use proper 1.25x scale with CSS zoom.
 
 ---
+
+**User:** title > just M31G
+
+**Action:** Changing page title to just "M31G".
+
+---
